@@ -1,0 +1,566 @@
+    1  cd /home/
+    2  sudo bash wifi_activation.sh
+    3  ping google.fr
+    4  apache --v
+    5  apache2 --v
+    6  apache2 --version
+    7  apache2
+    8  sudo apt install apache2-bin
+    9  apache2 --v
+   10  apache2
+   11  apache --v
+   12  apache2 --v
+   13  sudo nano /etc/apache2/apache2.conf
+   14  cd
+   15  cd /etc/apache2
+   16  ls
+   17  cd /etc
+   18  ls
+   19  whereis apache2
+   20  apache2 --v
+   21  cd apache2
+   22  sudo apt-get install apache2
+   23  cd apache2/
+   24  ls
+   25  apache 2 -v
+   26  apache2 -v
+   27  vscode --v
+   28  cd ..
+   29  cd..
+   30  cd ..
+   31  ls
+   32  cd var/www
+   33  ls
+   34  cd html
+   35  ls
+   36  mkdir Devops
+   37  sudo mkdir Devops
+   38  ls
+   39  cd Devops
+   40  nano
+   41  sudo nano
+   42  ls
+   43  sudo nano index.html
+   44  whereis host
+   45  cd /etc
+   46  ls
+   47  sudo nano hosts
+   48  cd ..
+   49  ls
+   50  cd etc
+   51  apache2
+   52  cd apache2
+   53  ls
+   54  cd sites-available
+   55  ls
+   56  cat 000-default.conf 
+   57  cd ..
+   58  ls
+   59  cd html
+   60  cd var
+   61  cd /var/www/html
+   62  ls
+   63  rm -r index.html
+   64  ls
+   65  sudo rm -r index.html
+   66  ls
+   67  whereis hosts
+   68  cd ..
+   69  cdd ..
+   70  cd ..
+   71  cd..
+   72  cd ..
+   73  ls
+   74  cd etc
+   75  ls
+   76  cd hosts
+   77  sudo nano hosts
+   78  ls
+   79  sudo nano hosts
+   80  whereis Devops
+   81  cd ..
+   82  ls
+   83  cd etc
+   84  ls
+   85  cd Deveops
+   86  cd Devops
+   87  whereis Devops
+   88  cd Devops
+   89  cd ..
+   90  ls
+   91  cd var/www/Devops
+   92  cd /var/www/Devops
+   93  cd var
+   94  cd www
+   95  ls
+   96  cd html
+   97  ls
+   98  cd Devops
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd /etc/apache2
+  103  ls
+  104  cd sites-available/
+  105  ls
+  106  sudo nano
+  107  ls
+  108  sudo a2ensite localdevops.conf
+  109  systemctl reload apache2
+  110  ls
+  111  sudo rm -r 000-default.conf 
+  112  ls
+  113  whereis hosts
+  114  cd ..
+  115  cd hosts
+  116  sudo nano hosts
+  117  systemctl reload apache2
+  118  ls
+  119  whereis .conf
+  120  clear
+  121  ls
+  122  cd apache2
+  123  ls
+  124  cd sites-available
+  125  sudo nano
+  126  ls
+  127  sudo nano localdevops.conf
+  128  systemctl reload apache2
+  129  history
+  130  sudo service apache2 restart
+  131  ls
+  132  sudo nano localdevops.conf 
+  133  journal -xe
+  134  systemctl status apache2.service
+  135  cd  /lib/systemd/system
+  136  ls
+  137  clear
+  138  systemctl status apache2.
+  139  cd ..
+  140  sudo service apache2 restart
+  141  systemctl status apache2.service
+  142  history
+  143  cd /etc/apache2
+  144  cat apache2.conf
+  145  cd sites-available/
+  146  ls
+  147  cat localdevops.conf 
+  148  cd ..
+  149  cd sites-enabled/
+  150  ls
+  151  sudo rm 000-default.conf
+  152  cd ..
+  153  cd sites-available/
+  154  ls
+  155  sudo a2ensite localdevops.conf 
+  156  sudo service apache2 restart
+  157  systemctl status apache2.service
+  158  systemctl reload apache2
+  159  sudo service apache2 restart
+  160  clear
+  161  npm install -g create-react-app
+  162  create-react-app hello-world
+  163  cd hello-world
+  164  clear
+  165  sudo apt install npm
+  166  react --v
+  167  clear
+  168  node --v
+  169  node -v
+  170  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  171  whereis package.json
+  172  ls
+  173  rm package-lock.json
+  174  ls
+  175  cd Document
+  176  cd Documents
+  177  ls
+  178  cd ..
+  179  whereis package-lock.json
+  180  whereis package.json
+  181  nvm -v
+  182  nvm install --lts
+  183  node -v
+  184  ls
+  185  npm install -g creat-react-app
+  186  whereis app
+  187  npx create-react-app monappli
+  188  npm install react-script@latest
+  189  npx create-react-app monappli --force
+  190  ls
+  191  mkdir testappli
+  192  cd testappli
+  193  npx-create-react-app anapp
+  194  npx create-react-app anapp
+  195  npm start
+  196  cd ..
+  197  ls
+  198  testappli
+  199  cd testappli
+  200  ls
+  201  cd anapp
+  202  npm start
+  203  npm run build
+  204  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  205  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+  206  sudo apt-get code
+  207  sudo apt -get install code
+  208  sudo apt install code
+  209  sudo apt update
+  210  sudo apt install code
+  211  sudo apt update
+  212  sudo apt install software-properties-common apt-transport-https
+  213  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  214  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+  215  sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+  216  sudo apt update
+  217  sudo apt install code
+  218  ext install dsznajder.es7-react-js-snippets
+  219  sudo apt install dsznajder.es7-react-js-snippets
+  220  sudo apt-get chrome
+  221  sudo apt-get install chrome
+  222  sudo apt update
+  223  sudo apt upgrade
+  224  clear
+  225  wget --v
+  226  wget --version
+  227  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  228  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  229  sudo apt-get install -f
+  230  google-chrome
+  231  git init
+  232  git add . 
+  233  git commit -m "first commit"
+  234  git config user.email "v.michel@it-students.fr"
+  235  git config user.name "vmichel4810"
+  236  git commit -m "first commit"
+  237  git branch -M main 
+  238  git remote add origin https://github.com/vmichel4810/understandScript.git
+  239  git push -u origin main
+  240  sudo apt install docker
+  241  ocker
+  242  docker
+  243  sudo apt install docker.io
+  244  ls
+  245  cd Documents/
+  246  ls
+  247  cd script
+  248  ls
+  249  cd ..
+  250  cd azerty
+  251  ls
+  252  pwd
+  253  cd ..
+  254  sudo apt-get update
+  255  sudo apt-get install docker-ce docker-ce-cli container.io
+  256  docker
+  257  sudo apt install docker.io
+  258  docker
+  259  docker -v
+  260  docker run -d -p 80:80 docker/getting-started
+  261  sudo docker run -d -p 80:80 docker/getting-started
+  262  DOCKER_BUILDKIT=1 docker build .
+  263  sudo DOCKER_BUILDKIT=1 docker build .
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd etc
+  268  ls
+  269  cd docker/daemon.json
+  270  cd docker
+  271  ls
+  272  nano key.json 
+  273  cd ..
+  274  ls
+  275  cd home
+  276  ls
+  277  cd apprenant/
+  278  sudo docker run -d -p 80:80 docker/getting-started
+  279  sudo Docker % docker run -d -p 80:80 docker/getting-started
+  280  docker run -d -p 80:80 docker/getting-started
+  281  sudo docker run -d -p 80:80 docker/getting-started
+  282  sudo docker run -d -p 3000:3000 docker/getting-started
+  283  docker build -t getting-started
+  284  docker
+  285  ls
+  286  cd ..
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd etc
+  291  ls
+  292  cd docker
+  293  ls
+  294  docker build -t monimage .
+  295  sudo docker build -t monimage .
+  296  docker build -t monimage .
+  297  sudo docker build -t monimage .
+  298  docker run -p 80:80 monimage
+  299  sudo docker run -p 80:80 monimage
+  300  docker compose up
+  301  docker run -it ubuntu bash
+  302  sudo docker run -it ubuntu bash
+  303  cd ..
+  304  ls
+  305  cd /etc
+  306  ls
+  307  cd docker
+  308  ls
+  309  sudo docker run -dp 3000:3000 docker/getting-started
+  310  cd ..
+  311  ls
+  312  cd home
+  313  sudo docker run -dp 3000:3000 docker/getting-started
+  314  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  315  sudo chmod +x /usr/local/bin/docker-compose
+  316  docker-compose
+  317  node
+  318  ls
+  319  cd apprenant
+  320  ls
+  321  cd Bureau 
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd Documents
+  326  ls
+  327  mkdir docker-react
+  328  cd docker-react/
+  329  npx create-react-app my-ap
+  330  ls
+  331  cd my-ap/
+  332  npm start
+  333  docker run hello-world
+  334  sudo docker run hello-world
+  335  cd /
+  336  cd home
+  337  cd apprenant/
+  338  docker ps
+  339  sudo docker ps
+  340  docker rm bd689cd4a239 
+  341  sudo docker rm bd689cd4a239 
+  342  sudo docker rm -rf bd689cd4a239 
+  343  docker rm --help
+  344  sudo docker rm -f bd689cd4a239 
+  345  docker ps
+  346  sudo dockerps
+  347  sudo docker ps
+  348  ls
+  349  cd /
+  350  ls
+  351  cd root
+  352  sudo cd root
+  353  ls
+  354  cd home
+  355  ls
+  356  cd apprenant/
+  357  ls
+  358  cd doc
+  359  cd Documents/
+  360  git clone https://github.com/NBlay/D00.git
+  361  ls
+  362  cd D00/
+  363  ls
+  364  mkdir covers
+  365  ls
+  366  cd covers
+  367  ls
+  368  mkdir constructeurs
+  369  mkdir Sony
+  370  mkdir Microsoft
+  371  mkdir Nintendo
+  372  mkdir Sega
+  373  ls
+  374  ls constructeurs/
+  375  mkdir Sony
+  376  mkdir Nintendo
+  377  mkdir Microsoft
+  378  mkdir Sega
+  379  ls
+  380  cd constructeurs/
+  381  mkdir Sony
+  382  mkdir Microsoft
+  383  mkdir Sega
+  384  mkdir Nintendo
+  385  cd /
+  386  cd home/apprenant/
+  387  ls
+  388  cd Téléchargements/
+  389  ls
+  390  cd ..
+  391  ls
+  392  cd Documents/
+  393  ls
+  394  cd 'Linux-GNU week'/
+  395  ls
+  396  cd covers
+  397  ls
+  398  pwd
+  399  ls
+  400  cd ~Documents
+  401  cd ~/Documents
+  402  ls
+  403  pwd
+  404  man cp
+  405  man pwd
+  406  man cat
+  407  man more
+  408  ls
+  409  cd D00/
+  410  cd covers/
+  411  ls
+  412  cd c..
+  413  cd .
+  414  cd ..
+  415  cd Linux-GNU\ week/
+  416  ls
+  417  cd covers/
+  418  ls
+  419  cp dc_jetgrindradio_10.jpg 
+  420  cp dc_jetgrindradio_10.jpg  /Documents/Day00/covers/constructeurs/Sega
+  421  cp dc_jetgrindradio_10.jpg  /Documents/Linux-GNU week/covers /Documents/Day00/constructeurs/Sega
+  422  cp dc_jetgrindradio_10.jpg  /Documents/Linux-GNU week/covers /Documents/Day00/covers/constructeurs/Sega
+  423  cp dc_jetgrindradio_10.jpg  /Documents/Linux-GNU week/covers ~/Documents/Day00/covers/constructeurs/Sega
+  424  cd /
+  425  cd ~/Documents
+  426  ls
+  427  cd D00/covers/constructeurs/Sega/
+  428  mkdir Consoles
+  429  ls Consoles/
+  430  mkdir Dreamcast
+  431  ls Dreamcast
+  432  cd Dreamcast/
+  433  cp ~/Documents/Linux-GNU\ week/covers/dc_jetsetradio_eu_front.jpg  
+  434  cp ~/Documents/Linux-GNU\ week/covers/dc_jetsetradio_eu_front.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  435  ls
+  436  cp ~/Documents/Linux-GNU\ week/covers/dc_jetgrindradio_10.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  437  ls
+  438  cd ..
+  439  cd Dreamcast/
+  440  cp ~/Documents/Linux-GNU\ week/covers/dc_shenmue_eu.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  441  cp ~/Documents/Linux-GNU\ week/covers/dc_shenmueii_5.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  442  cd ..
+  443  cd Nintendo/
+  444  mkdir Gameboy
+  445  cd Gameboy/
+  446  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokmonred.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  447  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokmongold.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  448  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokmonblue.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  449  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokmonblue_eu.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  450  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokemonblue_eu.jpg ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  451  cd ..
+  452  cd Sega/Consoles/
+  453  mkdir Dreamcast
+  454  del Dreamcast
+  455  ls
+  456  cp ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/
+  457  cp ~/Documents/D00/covers/constructeurs/Sega/Dreamcast/ ~/Documents/D00/covers/constructeurs/Sega/Consoles/Dreamcast/
+  458  cd Dreamcast
+  459  ls
+  460  cp ~/Documents/Linux-GNU\ week/covers/dc_jetsetradio_eu_front.jpg ~/Documents/D00/covers/constructeurs/Sega/Consoles/Dreamcast/
+  461  cp ~/Documents/Linux-GNU\ week/covers/dc_jetgrindradio_10.jpg ~/Documents/D00/covers/constructeurs/Sega/Consoles/Dreamcast/
+  462  cp ~/Documents/Linux-GNU\ week/covers/dc_shenmue_eu.jpg ~/Documents/D00/covers/constructeurs/Sega/Consoles/Dreamcast/
+  463  cp ~/Documents/Linux-GNU\ week/covers/dc_shenmueii_5.jpg ~/Documents/D00/covers/constructeurs/Sega/Consoles/Dreamcast/
+  464  cd ..
+  465  ls
+  466  cd Nintendo/
+  467  mkdir
+  468  ls
+  469  cd Gameboy/
+  470  cp ~/Documents/Linux-GNU\ week/covers/gameboy.pokmonred.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  471  cp ~/Documents/Linux-GNU\ week/covers/gbc_pokemongold.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  472  cp ~/Documents/Linux-GNU\ week/covers/gb_pokemonblue_eu.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  473  cp ~/Documents/Linux-GNU\ week/covers/gb_pokemongreen_3.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  474  cp ~/Documents/Linux-GNU\ week/covers/gb_pokemonyellow_au.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  475  cd ..
+  476  mkdir Gamecube
+  477  cp ~/Documents/Linux-GNU\ week/covers/gc_mariokartdoubledash.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  478  cp ~/Documents/Linux-GNU\ week/covers/gc_supermariosunshine.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/
+  479  cp ~/Documents/Linux-GNU\ week/covers/gc_supermariosunshine.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gamecube
+  480  cp ~/Documents/Linux-GNU\ week/covers/gc_mariokartdoubledash.jpg ~/Documents/D00/covers/constructeurs/Nintendo/Gamecube
+  481  cd Game
+  482  cd Gameboy/
+  483  ls
+  484  rm gc_mariokartdoubledash.jpg 
+  485  rm gc_supermariosunshine.jpg 
+  486  ls
+  487  cd ..
+  488  ls
+  489  cd Gamecube/
+  490  ls
+  491  cd ..
+  492  ls
+  493  cd Sony/
+  494  mkdir Ps4
+  495  cp ~/Documents/Linux-GNU\ week/covers/playstation_4.assassinscreedodyssey.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps4/
+  496  cp ~/Documents/Linux-GNU\ week/covers/playstation_4.unchartedthelostlegacy.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps4/
+  497  cp ~/Documents/Linux-GNU\ week/covers/playstation_4.watchdogs2.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps4/
+  498  mkdir Ps5
+  499  cp ~/Documents/Linux-GNU\ week/covers/playstation_5.assassinscreedvalhalla.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps5/
+  500  cp ~/Documents/Linux-GNU\ week/covers/playstation_5.farcry6.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps5/
+  501  cp ~/Documents/Linux-GNU\ week/covers/playstation_5.residentevilvillage_.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps5/
+  502  cp ~/Documents/Linux-GNU\ week/covers/ps4.fifa14.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps4/
+  503  cp ~/Documents/Linux-GNU\ week/covers/ps4_fifa14.jpg ~/Documents/D00/covers/constructeurs/Sony/Ps4/
+  504  cd ..
+  505  cd Microsoft/
+  506  mkdir X360
+  507  cp ~/Documents/Linux-GNU\ week/covers/x360_callofduty3.jpg ~/Documents/D00/covers/constructeurs/Microsoft/X360
+  508  mkdir consoles
+  509  cd ..
+  510  cd Sega/
+  511  ls
+  512  cd ..
+  513  cd Nintendo/
+  514  ls
+  515  mkdir consoles
+  516  cd consoles/
+  517  mkdir Gameboy
+  518  mkdir Gamecube
+  519  mv ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/ ~/Documents/D00/covers/constructeurs/Nintendo/consoles 
+  520  mv ~/Documents/D00/covers/constructeurs/Nintendo/Gamecube/ ~/Documents/D00/covers/constructeurs/Nintendo/consoles 
+  521  cd ..
+  522  cd Sony/
+  523  ls
+  524  mkdir consoles
+  525  mv ~/Documents/D00/covers/constructeurs/Sony/Ps4 ~/Documents/D00/covers/constructeurs/Sony/consoles
+  526  mv ~/Documents/D00/covers/constructeurs/Sony/Ps5 ~/Documents/D00/covers/constructeurs/Sony/consoles
+  527  cd ..
+  528  cd Nintendo/
+  529  mkdir consoles portables
+  530  mkdir portables
+  531  mv ~/Documents/D00/covers/constructeurs/Nintendo/Gameboy/ ~/Documents/D00/covers/constructeurs/Nintendo/portables 
+  532  mv ~/Documents/D00/covers/constructeurs/Nintendo/consoles/Gameboy/ ~/Documents/D00/covers/constructeurs/Nintendo/portables 
+  533  cd ..
+  534  mv ~/Documents/D00/covers/constructeurs/Microsoft/X360/ ~/Documents/D00/covers/constructeurs/Microsoft/consoles/
+  535  cd ..
+  536  cd constructeurs/
+  537  ls
+  538  mv ~/Documents/Linux-GNU\ week/covers/x360_callofudty2.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  539  mv ~/Documents/Linux-GNU\ week/covers/x360_callofduty2.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  540  mv ~/Documents/Linux-GNU\ week/covers/x360_callofduty4.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  541  mv ~/Documents/Linux-GNU\ week/covers/x360_callofdutyblackopsii.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  542  mv ~/Documents/Linux-GNU\ week/covers/x360_fableiii.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  543  mv ~/Documents/Linux-GNU\ week/covers/xbox_360_fableiii.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  544  mv ~/Documents/Linux-GNU\ week/covers/xbox_360.fableiii.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/X360/
+  545  cd Microsoft/consoles/
+  546  mkdir xbox
+  547  mv ~/Documents/Linux-GNU\ week/covers/xbox_deadoralive3.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  548  mv ~/Documents/Linux-GNU\ week/covers/xbox_deadtorights.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  549  mv ~/Documents/Linux-GNU\ week/covers/xbox_halo2.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  550  mv ~/Documents/Linux-GNU\ week/covers/xbox_jetsetradiofuture_2.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  551  mv ~/Documents/Linux-GNU\ week/covers/xbox_needforspeedunderground2.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  552  mv ~/Documents/Linux-GNU\ week/covers/xbox_defjamfightforny.jpg ~/Documents/D00/covers/constructeurs/Microsoft/consoles/xbox
+  553  history
+  554  man history
+  555  history p
+  556  history p 500
+  557  history p500
+  558  history 500
+  559  cd ..
+  560  cd /
+  561  cd ~/Documents/
+  562  cd D00/covers/
+  563  ls
+  564  cd constructeurs/
+  565  ls
+  566  history>history.txt
